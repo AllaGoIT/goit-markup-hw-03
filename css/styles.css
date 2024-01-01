@@ -280,6 +280,17 @@ button {
   gap: 24px;
   padding-top: 120px;
   padding-bottom: 120px;
+  margin-bottom: 8px;
+}
+.about-us {
+  display: flex;
+  gap: 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.about-us-item {
+  width: calc((100% - 72px) / 4);
 }
 
 /*------------------------------------------------------------------------------*/
