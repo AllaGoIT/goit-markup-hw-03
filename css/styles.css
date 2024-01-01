@@ -26,10 +26,8 @@ ul {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
-  clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
 *,
@@ -109,7 +107,6 @@ address {
   background: #fff;
   letter-spacing: 0.02em;
   display: flex;
-  gap: 40px;
 }
 
 .header-address-contact:hover {
@@ -123,23 +120,27 @@ address {
   display: flex;
   flex-shrink: 0;
   background: #fff;
+  align-items: center;
+  gap: 40px;
 }
 .header-novigation {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-shrink: 0;
+  align-items: center;
 }
 .header-menu-list {
   display: flex;
   margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-address-list {
   display: flex;
   margin-left: 332px;
   margin-right: 0;
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /*-------------------------------------------------------------------*/
