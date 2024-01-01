@@ -187,6 +187,19 @@ address {
   padding-bottom: 24px;
   gap: 40px;
 }
+.header-address-contact-m {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
+}
+.header-address-contact-p {
+  display: flex;
+  margin-right: 0px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
+}
 
 /*-------------------------------------------------------------------*/
 
