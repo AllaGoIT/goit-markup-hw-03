@@ -146,10 +146,10 @@ address {
   padding-top: 24px;
   padding-bottom: 24px;
   gap: 40px;
+  margin-right: 76px;
 }
 .header-menu-list {
   display: flex;
-  margin-right: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
   gap: 40px;
@@ -170,14 +170,12 @@ address {
 }
 .header-menu-item-s {
   display: flex;
-  margin-right: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
   gap: 40px;
 }
 .header-menu-item-p {
   display: flex;
-  margin-right: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
   gap: 40px;
