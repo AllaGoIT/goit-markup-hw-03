@@ -66,9 +66,7 @@ ul {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-top: 25.5px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   margin-right: 76px;
   gap: 40px;
 }
@@ -81,10 +79,8 @@ ul {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-top: 25.5px;
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   gap: 40px;
 }
 
@@ -94,8 +90,7 @@ ul {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   gap: 40px;
 }
 
@@ -120,8 +115,7 @@ address {
   background: #fff;
   letter-spacing: 0.02em;
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   gap: 40px;
 }
 
@@ -138,8 +132,7 @@ address {
   background: #fff;
   align-items: center;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .header-novigation {
@@ -147,28 +140,24 @@ address {
   justify-content: center;
   flex-shrink: 0;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   gap: 40px;
   margin-right: 76px;
 }
 .header-menu-list {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   gap: 40px;
 }
 .header-address-list {
   display: flex;
   margin-left: 332px;
   margin-right: 0;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   gap: 40px;
 }
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
   gap: 40px;
   width: 100%;
@@ -179,41 +168,35 @@ address {
 }
 .header-menu-item-s {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   gap: 40px;
 }
 .header-menu-item-p {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   gap: 40px;
 }
 .header-menu-item-c {
   display: flex;
   margin-right: 0px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   gap: 40px;
 }
 .header-address-contact-m {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   gap: 40px;
 }
 .header-address-contact-p {
   display: flex;
   margin-right: 0px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   gap: 40px;
 }
 .header-container {
   width: 1158px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 
 /*-------------------------------------------------------------------*/
@@ -307,6 +290,7 @@ button {
 
 .about-us-item {
   width: calc((100% - 72px) / 4);
+  margin-bottom: 8px;
 }
 .visually-hidden {
   position: absolute;
