@@ -37,9 +37,7 @@ ul {
 *::after {
   box-sizing: border-box;
 }
-.container {
-  width: 1158px;
-}
+
 .img {
   display: block;
 }
@@ -70,6 +68,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding-top: 25.5px;
+  margin-right: 76px;
 }
 
 .header-menu-link {
@@ -97,8 +96,8 @@ address {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--WHITE, #fff);
+  border-bottom: 1px solid #e7e9fc;
+  background: #fff;
   letter-spacing: 0.02em;
   display: flex;
   gap: 40px;
@@ -116,7 +115,6 @@ address {
   width: 1158px;
   flex-shrink: 0;
   background: #fff;
-  border-bottom: 1px solid #e7e9fc;
 }
 .header-novigation {
   display: flex;
@@ -127,7 +125,6 @@ address {
 .header-menu-list {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
