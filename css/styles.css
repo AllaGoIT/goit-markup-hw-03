@@ -44,16 +44,16 @@ ul {
   padding-bottom: 120px;
 }
 
-/*-------------------------HEADER--------------------------*/
-
 .container {
   width: 100%;
   max-width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid #e7e9fc;
 }
+
+/*-------------------------HEADER--------------------------*/
+
 .header-logo-italic {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -64,6 +64,9 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding-top: 25.5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
 }
 .header-novigation-logo {
   color: #2e2f42;
@@ -76,6 +79,9 @@ ul {
   text-transform: uppercase;
   padding-top: 25.5px;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
 }
 
 .header-menu-link {
@@ -84,6 +90,9 @@ ul {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
 }
 
 .header-menu-link:hover {
@@ -107,6 +116,9 @@ address {
   background: #fff;
   letter-spacing: 0.02em;
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
 }
 
 .header-address-contact:hover {
@@ -122,25 +134,38 @@ address {
   background: #fff;
   align-items: center;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-novigation {
   display: flex;
   justify-content: center;
   flex-shrink: 0;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
 }
 .header-menu-list {
   display: flex;
   margin-right: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
 }
 .header-address-list {
   display: flex;
   margin-left: 332px;
   margin-right: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
 }
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
+  gap: 40px;
 }
 
 /*-------------------------------------------------------------------*/
