@@ -140,6 +140,11 @@ address {
   gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
+  width: 100%;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header-novigation {
