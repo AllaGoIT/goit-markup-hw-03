@@ -132,7 +132,7 @@ address {
   color: #404bbf;
 }
 
-.header-container {
+.container {
   display: flex;
   flex-shrink: 0;
   background: #fff;
@@ -290,10 +290,22 @@ button {
   gap: 24px;
   padding-top: 120px;
   padding-bottom: 120px;
+  margin-bottom: 8px;
 }
 
 .about-us-item {
   width: calc((100% - 72px) / 4);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  overflow: hidden;
 }
 
 /*------------------------------------------------------------------------------*/
@@ -357,6 +369,7 @@ button {
   display: block;
   background: #f4f4fd;
   padding-bottom: 120px;
+  padding-top: 120px;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
@@ -364,6 +377,12 @@ button {
 
 .team-image {
   width: 264px;
+}
+.team-container {
+  padding-bottom: 32px;
+  padding-top: 32px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 /*----------------------------------------------------------------------------------------*/
 
@@ -473,9 +492,11 @@ button {
   width: 264px;
 }
 .footer-container {
+  display: inline-block;
   background: #2e2f42;
-  padding-top: 140px;
+  padding-top: 100px;
   padding-right: 879px;
   padding-bottom: 100px;
+  margin-bottom: 16px;
 }
 /*---------------------------------------------------------------------------------*/
