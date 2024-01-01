@@ -46,9 +46,12 @@ ul {
   padding-bottom: 120px;
 }
 .container {
-  width: 1158px;
+  width: 100%;
+  max-width: 1158px;
   margin: 0 auto;
-  padding: 0 15px 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid #e7e9fc;
 }
 /*-------------------------HEADER--------------------------*/
 
@@ -119,7 +122,6 @@ address {
   display: flex;
   flex-shrink: 0;
   background: #fff;
-  border-bottom: 1px solid #e7e9fc;
 }
 .header-novigation {
   display: flex;
