@@ -4,7 +4,10 @@ body {
   background-color: #ffffff;
 }
 
-p h1 h2 h3 {
+p,
+h1,
+h2,
+h3 {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -129,7 +132,7 @@ address {
   color: #404bbf;
 }
 
-.container-header-container {
+.header-container {
   display: flex;
   flex-shrink: 0;
   background: #fff;
@@ -234,7 +237,7 @@ address {
 button {
   cursor: pointer;
 }
-.container-hero {
+.hero-container {
   display: block;
   align-items: center;
   background-color: #2e2f42;
@@ -282,7 +285,7 @@ button {
   padding-bottom: 120px;
   margin-bottom: 8px;
 }
-.about-us {
+.container {
   display: flex;
   gap: 24px;
   padding-top: 120px;
@@ -350,7 +353,7 @@ button {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.container-team-container {
+.container {
   display: block;
   background: #f4f4fd;
   padding-bottom: 120px;
@@ -386,7 +389,7 @@ button {
   letter-spacing: 0.02em;
   width: auto;
 }
-.container-portfolio-container {
+.container {
   display: flex;
   background: #fff;
   flex-direction: column;
@@ -469,7 +472,7 @@ button {
   letter-spacing: 0.02em;
   width: 264px;
 }
-.container-footer-container {
+.footer-container {
   background: #2e2f42;
   padding-top: 140px;
   padding-right: 879px;
