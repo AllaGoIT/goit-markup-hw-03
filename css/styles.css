@@ -45,6 +45,11 @@ ul {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 /*-------------------------HEADER--------------------------*/
 
 .header-logo-italic {
@@ -112,27 +117,24 @@ address {
 
 .container-header-container {
   display: flex;
-  width: 1158px;
   flex-shrink: 0;
   background: #fff;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-novigation {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-menu-list {
   display: flex;
-  gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-address-list {
   display: flex;
-  gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   margin-left: 332px;
 }
 
