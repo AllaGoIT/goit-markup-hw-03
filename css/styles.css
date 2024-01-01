@@ -45,6 +45,9 @@ ul {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+/*-------------------------HEADER--------------------------*/
+
 .container {
   width: 100%;
   max-width: 1158px;
@@ -53,8 +56,6 @@ ul {
   padding-right: 15px;
   outline: 1px solid #e7e9fc;
 }
-/*-------------------------HEADER--------------------------*/
-
 .header-logo-italic {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
