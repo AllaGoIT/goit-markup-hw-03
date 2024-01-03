@@ -57,6 +57,10 @@ img {
   margin: 0 auto;
 }
 
+.container {
+  margin: 0 auto;
+}
+
 /*-------------------------HEADER--------------------------*/
 
 .header-logo-italic {
@@ -175,6 +179,7 @@ address {
   border-bottom: 1px solid #e7e9fc;
   gap: 40px;
   width: 100%;
+  margin: 0 auto;
 }
 
 /*-------------------------------------------------------------------*/
