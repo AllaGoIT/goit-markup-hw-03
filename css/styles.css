@@ -244,7 +244,7 @@ button {
   padding-bottom: 120px;
   margin-bottom: 8px;
 }
-.container {
+.about-us-container {
   display: flex;
   gap: 24px;
   padding-top: 120px;
@@ -335,7 +335,7 @@ button {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-.container {
+.team-container {
   display: block;
   background: #f4f4fd;
   padding-bottom: 120px;
@@ -349,7 +349,7 @@ button {
 .team-image {
   width: 264px;
 }
-.team-container {
+.team-title-container {
   padding-bottom: 32px;
   padding-top: 32px;
   text-align: center;
@@ -379,7 +379,7 @@ button {
   letter-spacing: 0.02em;
   width: auto;
 }
-.container {
+.portfolio-container {
   display: flex;
   background: #fff;
   flex-direction: column;
@@ -427,7 +427,7 @@ button {
   padding-bottom: 120px;
 }
 
-.portfolio-container {
+.portfolio-title-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
