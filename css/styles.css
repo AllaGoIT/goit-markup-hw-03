@@ -15,6 +15,7 @@ h3 {
 a {
   text-decoration: none;
 }
+
 ul {
   list-style: none;
   margin-top: 0;
@@ -28,9 +29,6 @@ ul {
   box-sizing: border-box;
 }
 
-.img {
-  display: block;
-}
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -41,6 +39,7 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -54,6 +53,10 @@ ul {
   overflow: hidden;
 }
 
+img {
+  display: block;
+}
+
 /*-------------------------HEADER--------------------------*/
 
 .header-logo-italic {
@@ -62,20 +65,23 @@ ul {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17;
+  /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding: 24px 0;
   margin-right: 76px;
   gap: 40px;
 }
+
 .header-novigation-logo {
   color: #2e2f42;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17;
+  /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
@@ -87,7 +93,8 @@ ul {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
+  /* 150% */
   letter-spacing: 0.02em;
   padding: 24px 0;
   gap: 40px;
@@ -96,6 +103,7 @@ ul {
 .header-menu-link:hover {
   color: #404bbf;
 }
+
 .header-menu-link:focus {
   color: #404bbf;
 }
@@ -121,6 +129,7 @@ address {
 .header-address-contact:hover {
   color: #404bbf;
 }
+
 .header-address-contact:focus {
   color: #404bbf;
 }
@@ -146,11 +155,13 @@ address {
   gap: 40px;
   margin-right: 76px;
 }
+
 .header-menu-list {
   display: flex;
   padding: 24px 0;
   gap: 40px;
 }
+
 .header-address-list {
   display: flex;
   margin-left: 332px;
@@ -158,12 +169,12 @@ address {
   padding: 24px 0;
   gap: 40px;
 }
+
 .header {
   padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
   gap: 40px;
   width: 100%;
-  margin: 0 auto;
 }
 
 /*-------------------------------------------------------------------*/
@@ -173,6 +184,7 @@ address {
 .hero-order-btn:hover {
   background-color: #404bbf;
 }
+
 .hero-order-btn:focus {
   background-color: #404bbf;
 }
@@ -186,7 +198,8 @@ address {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
+  /* 150% */
   letter-spacing: 0.04em;
   margin-left: 164px;
   margin-right: 163px;
@@ -199,15 +212,18 @@ address {
 button {
   cursor: pointer;
 }
+
 .hero-container {
   display: block;
   align-items: center;
   background-color: #2e2f42;
 }
+
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+
 .hero-title {
   color: #fff;
   font-size: 56px;
@@ -225,14 +241,17 @@ button {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2;
+  /* 120% */
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
+
 .about-us-item-text {
   color: #434455;
   font-size: 16px;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
+  /* 150% */
   letter-spacing: 0.02em;
   display: flex;
   width: 264px;
@@ -248,6 +267,7 @@ button {
   padding-bottom: 120px;
   margin-bottom: 8px;
 }
+
 .about-us-container {
   display: flex;
   gap: 24px;
@@ -260,6 +280,7 @@ button {
   width: calc((100% - 72px) / 4);
   margin-bottom: 8px;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -271,6 +292,7 @@ button {
   clip-path: inset(100%);
   overflow: hidden;
 }
+
 .about-us {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -287,11 +309,13 @@ button {
   padding-top: 120px;
   gap: 24px;
 }
+
 .team-title {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11; /* 111.111% */
+  line-height: 1.11;
+  /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
   padding-top: 120px;
@@ -302,22 +326,27 @@ button {
   display: block;
   width: 162px;
 }
+
 .team-title-list-subtitle {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2;
+  /* 120% */
   letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 8px;
 }
+
 .team-title-list-text {
   color: #434455;
   font-size: 16px;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
+  /* 150% */
   letter-spacing: 0.02em;
   text-align: center;
 }
+
 .team-title-list {
   display: flex;
   background-color: #ffffff;
@@ -325,6 +354,7 @@ button {
   align-items: flex-start;
   margin-right: 0;
 }
+
 .team-title-list-item {
   background-color: #ffffff;
   display: flex;
@@ -343,6 +373,7 @@ button {
   width: calc((100% - 72px) / 4);
   margin-right: 24px;
 }
+
 .team-container {
   display: block;
   background: #f4f4fd;
@@ -363,9 +394,11 @@ button {
   text-align: center;
   margin-bottom: 8px;
 }
+
 .team-title-list-item-end {
   margin-right: 0;
 }
+
 /*----------------------------------------------------------------------------------------*/
 
 /*-----------------------------------PORTFOLIO--------------------------------------------*/
@@ -373,7 +406,8 @@ button {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2;
+  /* 120% */
   letter-spacing: 0.02em;
   display: flex;
   flex-direction: column;
@@ -384,13 +418,16 @@ button {
   width: 118px;
   margin-bottom: 8px;
 }
+
 .portfolio-list-subtitle-text {
   color: #434455;
   font-size: 16px;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
+  /* 150% */
   letter-spacing: 0.02em;
   width: auto;
 }
+
 .portfolio-container {
   display: flex;
   background: #fff;
@@ -408,6 +445,7 @@ button {
   margin: 0 auto;
   padding-bottom: 120px;
 }
+
 .portfolio-list-item {
   display: flex;
   padding-bottom: 32px;
@@ -421,10 +459,12 @@ button {
   margin-bottom: 48px;
   width: calc((100% - 48px) / 3);
 }
+
 .portfolio-list-image {
   margin: 0 auto;
   width: 319px;
 }
+
 .portfolio-title {
   padding-top: 120px;
   padding-right: 470px;
@@ -434,6 +474,7 @@ button {
   max-width: 218px;
   margin-bottom: 72px;
 }
+
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -444,6 +485,7 @@ button {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
 /*----------------------------------------------------------------------------------------*/
 
 /*--------------------------------FOOTER-------------------------------------------------*/
@@ -452,12 +494,14 @@ button {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .footer-logo-italic {
   color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.16;
+  /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding-top: 101.5px;
@@ -465,12 +509,14 @@ button {
   width: 44px;
   margin: 0 auto;
 }
+
 .footer-logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17;
+  /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   width: 71px;
@@ -481,13 +527,16 @@ button {
   display: inline-block;
   margin-bottom: 16px;
 }
+
 .footer-text {
   color: #f4f4fd;
   font-size: 16px;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
+  /* 150% */
   letter-spacing: 0.02em;
   width: 264px;
 }
+
 .footer-container {
   display: inline-block;
   background: #2e2f42;
@@ -496,4 +545,5 @@ button {
   padding-bottom: 100px;
   margin-bottom: 16px;
 }
+
 /*---------------------------------------------------------------------------------*/
