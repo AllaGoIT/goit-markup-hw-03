@@ -444,6 +444,9 @@ button {
   background: #fff;
   margin: 0 auto;
   padding-bottom: 120px;
+}
+
+.first-item {
   width: calc((100% - 48px) / 3);
 }
 
