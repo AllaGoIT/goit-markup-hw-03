@@ -126,7 +126,7 @@ address {
   color: #404bbf;
 }
 
-.container {
+.header-container {
   display: flex;
   flex-shrink: 0;
   background: #fff;
@@ -161,42 +161,6 @@ address {
   border-bottom: 1px solid #e7e9fc;
   gap: 40px;
   width: 100%;
-  max-width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.header-menu-item-s {
-  display: flex;
-  padding: 24px 0;
-  gap: 40px;
-}
-.header-menu-item-p {
-  display: flex;
-  padding: 24px 0;
-  gap: 40px;
-}
-.header-menu-item-c {
-  display: flex;
-  margin-right: 0px;
-  padding: 24px 0;
-  gap: 40px;
-}
-.header-address-contact-m {
-  display: flex;
-  padding: 24px 0;
-  gap: 40px;
-}
-.header-address-contact-p {
-  display: flex;
-  margin-right: 0px;
-  padding: 24px 0;
-  gap: 40px;
-}
-.header-container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 /*-------------------------------------------------------------------*/
